@@ -1,3 +1,5 @@
+// Variable initialisation = Variable delcaration + Variable assignment.
+
 let x; // Declaring variable x
 console.log(x); // Undefined
 
