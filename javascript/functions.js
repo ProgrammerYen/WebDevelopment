@@ -14,7 +14,7 @@ function solveQuadratic(a, b, c) {
 
     result2 = (-b - (b**2 - 4 * a * c) ** 0.5) / 2 * a;
     console.log("Second solution: " + result2);
-    return 
+    return;
 };
 
 solveQuadratic(1, 0, -5);

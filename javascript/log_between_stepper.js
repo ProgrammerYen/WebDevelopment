@@ -3,6 +3,7 @@ function logBetweenStepper(min, max, step) {
         console.log(min);
         min += step;
     }
+    return;
 };
 
 logBetweenStepper(3, 21, 3);

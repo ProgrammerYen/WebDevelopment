@@ -7,7 +7,7 @@ function validHeight(height) {
     } else {
         console.log("I am extremely sorry, however your height is too great in order to ride this rollercoaster.");
     }
-    return
+    return;
 };
 
 validHeight(2.11);
@@ -21,7 +21,7 @@ function isCoder(name) {
     } else {
         console.log("You are not Yenula so you didn't write this code.");
     }
-    return
+    return;
 };
 
 isCoder("Dinal De Alwis");

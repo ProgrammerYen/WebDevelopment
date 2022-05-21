@@ -44,7 +44,7 @@ function arrayMultiplier(array, value) {
         index ++;
     }
     console.log(array);
-    return
+    return;
 }
 
 arrayMultiplier([1,2,4], 3)

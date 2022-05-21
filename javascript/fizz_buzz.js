@@ -6,6 +6,6 @@ function fizzBuzz(max) {
             console.log(i);
         }
     }
-}
+};
 
 fizzBuzz(13);

@@ -4,6 +4,7 @@ function printFives(max) {
             console.log(i)
         }
     }
+    return;
 };
 
 printFives(20);
