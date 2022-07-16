@@ -1,0 +1,33 @@
+button {
+    height: 45px;;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.youtube {
+    border-radius: 3px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+#youtube-join-button {
+    border-color: rgb(0, 132, 255);
+    box-shadow: none;
+    color: rgb(0, 132, 255);
+}
+
+#youtube-subscribe-button {
+    background-color: #d30303;
+    color: white;
+    border: none;
+}
+
+#twitter-tweet-button {
+    background-color: rgb(0, 174, 255);
+    border: none;
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    width: 85px;
+}
