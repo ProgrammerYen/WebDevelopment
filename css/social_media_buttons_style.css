@@ -7,20 +7,41 @@ button {
 
 .youtube {
     border-radius: 3px;
-    padding-left: 17px;
-    padding-right: 17px;
+    padding-left: 22px;
+    padding-right: 22px;
+    transition: background-color 1s, color 1s;
 }
 
 #youtube-join-button {
     border-color: rgb(0, 132, 255);
-    box-shadow: none;
+    color: rgb(0, 132, 255);
+    border-width: 1.5px;
+    background-color: rgb(255,255,255);
+}
+
+#youtube-join-button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 132, 255);
+}
+
+#youtube-join-button:active {
+    background-color: rgb(230, 230, 230);
     color: rgb(0, 132, 255);
 }
 
 #youtube-subscribe-button {
-    background-color: #d30303;
+    background-color: rgb(211, 3, 3);
     color: white;
     border: none;
+}
+
+#youtube-subscribe-button:hover {
+    background-color: rgb(253, 3.6, 3.6);
+}
+
+#youtube-subscribe-button:active {
+    color: rgb(116, 116, 116); 
+    background-color: rgb(230, 230, 230);
 }
 
 #twitter-tweet-button {
@@ -30,4 +51,10 @@ button {
     border-radius: 25px;
     font-weight: bold;
     width: 85px;
+    transition: box-shadow 0.2s;
+}
+
+#twitter-tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0,0,0, 0.2); 
+    /*horizontal distance   vertical distance   blur   color - red, green, blue, transparency*/
 }

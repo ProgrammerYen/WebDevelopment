@@ -1,0 +1,63 @@
+button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.uber {
+    background-color: black;
+    color: white;   
+    padding: 12px;
+    font-size: 12px;
+}
+
+.amazon {
+    padding: 10px 45px;
+    background-color: rgb(255, 230, 0);
+    border: none;
+    border-radius: 30px;
+}
+
+.github {
+    font-family: Arial;
+    color: white;
+    background-color: #2ea44f;
+    padding: 8px 13px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.bootstrap {
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+#get-started-btn {
+    background-color: rgb(126, 86, 154);
+    color: white;
+    border: none;
+}
+
+#download-btn {
+    color: rgb(126, 86, 154);
+    background-color: white;
+    border-color: rgb(126, 86, 154);
+}
+
+.linkedin {
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#apply-btn {
+    background-color: #0072b1;
+    color: white;
+    border: none;
+}
+
+#save-btn {
+    border-color: #0072b1;
+    color: #0072b1;
+}
