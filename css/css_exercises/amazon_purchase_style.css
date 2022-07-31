@@ -1,0 +1,41 @@
+a {
+    transition: background-color 1s;
+}
+
+a:hover {
+    color: rgb(255, 200, 0);
+    filter: brightness(80%);
+}
+
+#price {
+    color: rgb(60, 255, 0); 
+    filter: brightness(70%);
+    font-weight: bold;
+}
+
+.amazon-purchase {
+    padding: 5px 17px;
+    border-radius: 20px;
+    border: none;
+    transition: background-color 1s;
+}
+
+.amazon-purchase:active {
+    opacity: 0.7;
+}
+
+#add-to-cart-btn {
+    background-color:rgb(255, 234, 0);
+}
+
+#add-to-cart-btn:hover {
+    filter: brightness(95%);
+}
+
+#buy-btn {
+    background-color: rgb(255, 200, 0);
+}
+
+#buy-btn:hover {
+    filter: brightness(90%);
+}

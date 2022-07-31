@@ -8,6 +8,11 @@ button {
     color: white;   
     padding: 12px;
     font-size: 12px;
+    transition: background-color 1s;
+}   
+
+.uber:hover {
+    opacity: 0.8;
 }
 
 .amazon {
@@ -15,6 +20,11 @@ button {
     background-color: rgb(255, 230, 0);
     border: none;
     border-radius: 30px;
+    transition: background-color 1s;
+}
+
+.amazon:hover {
+    filter: brightness(95%);
 }
 
 .github {
@@ -25,6 +35,11 @@ button {
     border: none;
     border-radius: 5px;
     font-weight: bold;
+    transition: box-shadow 0.15s;
+}
+
+.github:hover {
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
 }
 
 .bootstrap {
@@ -37,18 +52,31 @@ button {
     background-color: rgb(126, 86, 154);
     color: white;
     border: none;
+    transition: background-color 1s;
+}
+
+#get-started-btn:hover {
+    filter: brightness(90%);
 }
 
 #download-btn {
     color: rgb(126, 86, 154);
-    background-color: white;
+    background-color: rgb(255,255,255);
     border-color: rgb(126, 86, 154);
+    border-width: 1px;
+    transition: background-color 1s, color 1s;
+}
+
+#download-btn:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(255, 255, 255);
 }
 
 .linkedin {
     padding: 10px 15px;
     border-radius: 20px;
     font-weight: bold;
+    transition: background-color 1s;
 }
 
 #apply-btn {
@@ -57,7 +85,16 @@ button {
     border: none;
 }
 
+#apply-btn:hover {
+    filter: brightness(90%);
+}
+
 #save-btn {
-    border-color: #0072b1;
-    color: #0072b1;
+    border-color: rgb(0, 114, 177);
+    color: rgb(0, 114, 177);
+    background-color: rgb(255, 255, 255);
+}
+
+#save-btn:hover {
+    background-color: rgba(0, 114, 177, 0.15);
 }
