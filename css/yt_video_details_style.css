@@ -1,0 +1,32 @@
+* {
+    font-family: Arial;
+}
+
+p {
+    font-size: 13px;
+}
+
+.video-details {
+    color: rgb(90, 90, 90);
+}
+
+.video-title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.advert-btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    padding: 17px 34px;
+    border: none;
+    border-radius: 30px;
+}
+
+.advert-btn:hover {
+    filter: brightness(90%);
+}
+
+.advert-btn:active {
+    opacity: 0.6;
+}
