@@ -1,0 +1,30 @@
+#tahoma-txt {
+    font-family: Tahoma;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#verdana-txt {
+    font-family: Verdana;
+}
+
+#beginner-to-pro-txt {
+    color: rgb(90, 90, 90);
+}
+
+#verdana-txt h3 {
+    font-weight: bold;
+}
+
+.arial-txt {
+    font-family: Arial;
+}
+
+#arial1 p {
+    color: rgb(255, 0, 0);
+    font-style: italic;
+}
+
+#arial2 {
+    text-align: center;
+}

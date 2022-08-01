@@ -1,0 +1,27 @@
+* {
+    font-family: Arial;
+    text-align: center;
+}
+
+#new-txt {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(255, 165, 0);
+    filter: brightness(90%);
+}
+
+button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 166, 255);
+    border-radius: 20px;
+    border: none;
+    padding: 5px 10px;
+}
+
+button:hover {
+    filter: brightness(110%);
+}
+
+button:active {
+    filter: brightness(95%);
+}
