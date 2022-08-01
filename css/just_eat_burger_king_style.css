@@ -1,0 +1,82 @@
+
+main {
+    background-image: url("C:/Users/dealw/OneDrive/Programming/WebDevelopment/images/burger_king_background.jfif");
+    background-size: 1280px 725px;
+    margin: -16px -8px;
+}
+
+#selection-bar {
+    background-color: rgb(255, 128, 0);
+    padding: 20px 15px;
+}
+
+#bar-options {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 800px;
+    margin-top: -30px;
+    font-size: 15px;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}
+
+#find-postcode {
+    width: 800px;
+    max-width: 100%;
+    min-height: 200px;
+    padding: 18px;
+    border-radius: 12px;
+    background-color: #fff;
+    text-align: center;
+    margin-left: 240px;
+    color: rgb(60, 60, 60);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#find-postcode span {
+    color: rgb(255, 128, 0);
+    font-size: 40px;
+    font-family: "Open Sans", "sans serif";
+}
+
+#postcode {
+    width: 500px;
+    height: 55px;
+    padding-left: 10px;
+    border-color: rgb(220, 220, 220);
+    border-width: 1px;  
+    border-style: solid;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#search-btn {
+    background-color: rgb(255, 128, 0);
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 16px;
+    color: rgb(255, 255, 255);
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    margin-left: -6px; 
+    font-weight: bold;
+    font-size: 20px;
+}   
